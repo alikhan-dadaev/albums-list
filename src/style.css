@@ -1,0 +1,33 @@
+.container {
+    width: 1100px;
+    margin: auto;
+
+    display: flex;
+}
+
+.albums {
+    width: 300px;
+}
+
+.albums ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.albums ul li {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid lightblue;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.albums ul li:hover {
+    background-color: lightgray;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
