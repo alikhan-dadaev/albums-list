@@ -14,6 +14,14 @@ function Photos(props) {
         return false;
     })
 
+    if(selectedAlbumId === null) {
+        return (
+            <div className="no_album_select">
+            Select album...
+            </div>
+        )
+    }
+
     return (
         <div className="photos">
             <ul>

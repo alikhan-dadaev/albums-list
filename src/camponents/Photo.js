@@ -3,7 +3,7 @@ import React from 'react';
 function Photo(props) {
     return (
         <li>
-            {props.photo.title}
+            <img src={props.photo.thumbnailUrl} />
         </li>
     );
 }

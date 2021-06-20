@@ -30,7 +30,7 @@ export const loadPhotos = () => {
 
 export const selectAlbum = (albumId) => {
     return {
-        type: 'albums/select/',
+        type: 'albums/select',
         payload: albumId
     }
 }
