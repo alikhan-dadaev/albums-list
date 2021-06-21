@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-.albums ul li:hover {
+.albums ul li:hover, .selected {
     background-color: lightgray;
 }
 

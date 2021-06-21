@@ -9,7 +9,8 @@ function Album(props) {
         dispatch(selectAlbum(props.album.id))
     }
     return (
-        <li onClick={handleSelectAlbum}>
+        <li className={props.selectedAlbumId ? 'selected': ''}  onClick={handleSelectAlbum}>
+
             <div className="title">
             {props.album.title}
             </div>
